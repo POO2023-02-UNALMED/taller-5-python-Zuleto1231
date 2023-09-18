@@ -31,4 +31,14 @@ class Reptil(Animal):
     def cantidadReptiles(cls):
         return len(cls._listado)
     
+    def getColorEscamas(self):
+        return self._colorEscamas
+
+    def setColorEscamas(self, colorEscamas):
+        self._colorEscamas = colorEscamas
+
+    def getLargoCola(self):
+        return self._largoCola
     
+    def setLargoCola(self, largoCola):
+        self._largoCola = largoCola

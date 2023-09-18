@@ -40,5 +40,43 @@ class Animal:
                 ", habito en " + self._habitat +
                 " y mi genero es " + self._genero)
 
-        
+    @classmethod
+    def getTotalAnimales(cls):
+        return cls._totalAnimales
+
+    @classmethod
+    def setTotalAnimales(cls, totalAnimales):
+        cls._totalAnimales = totalAnimales
+
+    @classmethod
+    def getZona(cls):
+        return cls._zona
+    
+    @classmethod
+    def setZona(cls, zona):
+        cls._zona = zona
+
+    def getNombre(self):
+        return self._nombre
+    
+    def setNombre(self, nombre):
+        self._nombre = nombre
+
+    def getEdad(self):
+        return self._edad
+    
+    def setEdad(self, edad):
+        self._edad = edad
+    
+    def getHabitat(self):
+        return self._habitat
+    
+    def setEdad(self, habitat):
+        self._habitat = habitat
+    
+    def getGenero(self):
+        return self._genero
+    
+    def setGenero(self, genero):
+        self._genero = genero
         
