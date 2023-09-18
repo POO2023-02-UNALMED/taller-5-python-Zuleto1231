@@ -11,8 +11,8 @@ class Animal:
         
     def movimiento(self):
         return
-        
-    def totalPorTipo(self):
+    @staticmethod
+    def totalPorTipo():
         from mamifero import Mamifero
         from reptil import Reptil
         from ave import Ave
@@ -26,7 +26,7 @@ class Animal:
                 "\nAnfibios: " + str(Anfibio.cantidadAnfibios) )
 
         
-    def __str__(self):
+    def toString(self):
         if self._zona != None:
             return ("Mi nombre es " + self._nombre +
                 ", tengo una edad de " + str(self._edad) +
