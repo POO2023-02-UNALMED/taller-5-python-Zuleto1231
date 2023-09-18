@@ -12,7 +12,7 @@ class Animal:
     def movimiento(self):
         return
         
-    def totalPortipo(self):
+    def totalPorTipo(self):
         from mamifero import Mamifero
         from reptil import Reptil
         from ave import Ave
