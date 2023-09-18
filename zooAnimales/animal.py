@@ -19,11 +19,11 @@ class Animal:
         from zooAnimales.pez import Pez
         from zooAnimales.anfibio import Anfibio
         
-        return ("Mamiferos: "+ str(Mamifero.cantidadMamiferos)+
-                "\nAves: " + str(Ave.cantidadAves)+
-                "\nReptiles: " + str(Reptil.cantidadReptiles)+
-                "\nPeces: " + str(Pez.cantidadPeces)+
-                "\nAnfibios: " + str(Anfibio.cantidadAnfibios) )
+        return ("Mamiferos : "+ str(Mamifero.cantidadMamiferos())+
+                "\nAves : " + str(Ave.cantidadAves())+
+                "\nReptiles : " + str(Reptil.cantidadReptiles())+
+                "\nPeces : " + str(Pez.cantidadPeces())+
+                "\nAnfibios : " + str(Anfibio.cantidadAnfibios()) )
 
         
     def toString(self):
